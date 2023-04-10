@@ -3,40 +3,32 @@
 body{
     display: block;
 }
-
 header{
     display: block;
-    border: solid red;
+    width: auto;
 }
-
 nav{
     display: block;
-    border: solid red;
+    width: auto;
 }
-
 main{
+    display: block;
     width: auto;
-    border: solid red;
 }
-
 section{
+    display: block;
     width: auto;
-    border: solid red;
 }
-
-
 aside{
+    display: block;
     width: auto;
-    border: solid red;
 }
-
 footer{
-    border: solid red;
+    display: block;
+    width: auto;
 }
-
 }
 @media (min-width: 768px) {
-
     body{
         display: grid;
         grid-template:  "a a a"
@@ -44,53 +36,29 @@ footer{
                         "c c d"
                         "e e e";
     }
-    
     header{
         grid-area: a;
         display: block;
-        border: solid red;
     }
-    
     nav{
         grid-area: b;
-        display: block;
-        border: solid red;
-    }
-    
+        display: flex;
+        justify-content: space-around;
+        align-content: space-between;
+    }    
     main{
         grid-area: c;
         width: auto;
-        border: solid red;
     }
-    
     section{
         grid-area: e;
         width: auto;
-        border: solid red;
     }
-    
-    
     aside{
         grid-area: d;
         width: auto;
-        border: solid red;
     }
-    
     footer{
         grid-area: e;
-        border: solid red;
     }
-
 }
-
-/*
-mediano [m]
-@media (min-width: 992px) {
-}
-extra grande [xl]
-@media (min-width: 1200px) {
-}
-extra extra grande [xxl]
-@media (min-width: 1400px){
-}
-*/
