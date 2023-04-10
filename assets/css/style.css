@@ -1,11 +1,13 @@
 /*pequeno [s] */
 @media (min-width: 256px){
-body{
+body
+{
     display: block;
 }
 header{
     display: block;
     width: auto;
+    background-image: url(../img/Header.jpg);
 }
 nav{
     display: block;
@@ -30,35 +32,99 @@ footer{
 }
 @media (min-width: 768px) {
     body{
-        display: grid;
-        grid-template:  "a a a"
-                        "b b b"
-                        "c c d"
-                        "e e e";
+        display: block;
+        background-color: #1F79C2;
     }
     header{
-        grid-area: a;
         display: block;
+        justify-content: space-around;
+        align-content: space-between;        
+        background-image: url(../img/Header.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
     }
     nav{
-        grid-area: b;
         display: flex;
         justify-content: space-around;
         align-content: space-between;
     }    
+    nav a{
+        background-color: #DE847A;
+        border-radius: 20px;
+        width: 200px;
+        height: 90px;
+    }
+    nav a:hover{
+    background-color: #DE847A;
+    }
     main{
-        grid-area: c;
         width: auto;
     }
     section{
-        grid-area: e;
         width: auto;
     }
     aside{
-        grid-area: d;
         width: auto;
     }
     footer{
-        grid-area: e;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-content: flex-start;
+        justify-content: space-around;
+        align-content: space-evenly;
+        background-color: #99B1DE;
+    }
+    footer a {
+        color: #A699DE;
+    }
+    footer a:hover{
+        color: #D0ADFA;
     }
 }
+/*
+Header block
+*/
+#logo{
+    display: inline-block;
+    width: 100px;
+    height: auto;
+}
+#title{
+    display: inline-block;
+    width: 100px;
+    height: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#slogan{
+    display: inline-block;
+    width: 500px;
+    height: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*
+Burger block
+*/
+.burger-block{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: flex-start;
+}
+.burger .master {
+    border-radius: 15px;
+    width: 250px;
+    height: 250px;
+    box-shadow: 2px 6px;
+}
+.burger{
+    background-color: #F56A42;
+    width: 300px;
+    height: auto;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 6px;
+}
+
+/*Footer*/
