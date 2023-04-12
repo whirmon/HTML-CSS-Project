@@ -4,59 +4,188 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JJBB - Home of best artisan gourmet burgers</title>
     <link rel="shortcut icon" href="./assets/img/logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
         <header>
-            <h1>Welcome! <span><a href="https://github.com/whirmon/HTML-CSS-Project">view repository</a></span></h1>
-        </header>
-        <nav>
-<p>
-    <a href="./index.html">Homepage</a>
-</p>
-<p>
-    <a href="./specials.html">Specials</a>
-</p>
-<p>
-    <a href="./burgers.html">Burgers</a>
-</p>
-<p>
-    <a href="./sandwiches.html">Sandwiches</a>
-</p>
-<p>
-    <a href="./tacos.html">Tacos</a>
-</p>
-<p>
-    <a href="./wings.html">Wings</a>
-</p>
-<p>
-    <a href="./desserts.html">Desserts</a>
-</p>
-<p>
-    <a href="./drinks.html">Drinks</a>
-</p>
-<p>
-    <a href="./order.html">Your order</a>
-</p>
-        </nav>
+            <h1 id="title">JJBB</h1>
+            <img src="./assets/img/logo.svg" id="logo">
+            <h2 id="slogan">Home of best artisan gourmet burgers</h2>
+            <!--The Hamburger checkbox-->
+            <input class="side-menu" type="checkbox" id="side-menu"/>
+            <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+            <!--End of the hamburger checkbox-->
+                <nav>
+                    <p>
+                        <a href="./index.html">Homepage</a>
+                    </p>
+                    <p>
+                        <a href="./specials.html">Specials</a>
+                    </p>
+                    <p>
+                        <a href="./burgers.html">Burgers</a>
+                    </p>
+                    <p>
+                        <a href="./sandwiches.html">Sandwiches</a>
+                    </p>
+                    <p>
+                        <a href="./tacos.html">Tacos</a>
+                    </p>
+                    <p>
+                        <a href="./wings.html">Wings</a>
+                    </p>
+                    <p>
+                        <a href="./desserts.html">Desserts</a>
+                    </p>
+                    <p>
+                        <a href="./drinks.html">Drinks</a>
+                    </p>
+                    <p>
+                        <a href="./order.html">Your order</a>
+                    </p>
+                </nav>
+            </header>
         <main>
-            <section>
-                <p>section 1</p>
-            </section>
-            <section>
-                <p>section 2</p>
-            </section>
-            <section>
-                <p>section 3</p>
+            <section class="burger-block">
+                <div class="burger">
+                    <img src="./assets/img/BeefSandwich.PNG" alt="" class="master">
+                    <h4>Bacon Blue Cheese Burger</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, maxime quisquam? Obcaecati recusandae quos consequuntur rerum? Iusto quidem est ut asperiores qui consectetur eius odio quos consequatur similique! Sed, asperiores.</p>
+                    <h5>starting at <span class="child">4.99$</span><h5>
+                    <form action="">
+                        <label for="">Quantity:</label>
+                        <input type="number" name="" id="" step="1" min="1" max="8">
+                        <input type="reset" value="clear">
+                        <input type="submit" value="add">
+                    </form>
+                </div>
+                <!--end Burger block-->
+                <div class="burger">
+                    <img src="./assets/img/GuacamoleSandwich.PNG" alt="" class="master">
+                    <h4>Bacon Blue Cheese Burger</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, maxime quisquam? Obcaecati recusandae quos consequuntur rerum? Iusto quidem est ut asperiores qui consectetur eius odio quos consequatur similique! Sed, asperiores.</p>
+                    <h5>starting at <span class="child">4.99$</span><h5>
+                    <form action="">
+                        <label for="">Quantity:</label>
+                        <input type="number" name="" id="" step="1" min="1" max="8">
+                        <input type="reset" value="clear">
+                        <input type="submit" value="add">
+                    </form>
+                </div>
+                <!--end Burger block-->
+                <div class="burger">
+                    <img src="./assets/img/OnionMarmaladeSandwich.PNG" alt="" class="master">
+                    <h4>Bacon Blue Cheese Burger</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, maxime quisquam? Obcaecati recusandae quos consequuntur rerum? Iusto quidem est ut asperiores qui consectetur eius odio quos consequatur similique! Sed, asperiores.</p>
+                    <h5>starting at <span class="child">4.99$</span><h5>
+                    <form action="">
+                        <label for="">Quantity:</label>
+                        <input type="number" name="" id="" step="1" min="1" max="8">
+                        <input type="reset" value="clear">
+                        <input type="submit" value="add">
+                    </form>
+                </div>
+                <!--end Burger block-->
+                <div class="burger">
+                    <img src="./assets/img/BaconBlueCheeseBurger.jpg" alt="" class="master">
+                    <h4>Bacon Blue Cheese Burger</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, maxime quisquam? Obcaecati recusandae quos consequuntur rerum? Iusto quidem est ut asperiores qui consectetur eius odio quos consequatur similique! Sed, asperiores.</p>
+                    <h5>starting at <span class="child">4.99$</span><h5>
+                    <form action="">
+                        <label for="">Quantity:</label>
+                        <input type="number" name="" id="" step="1" min="1" max="8">
+                        <input type="reset" value="clear">
+                        <input type="submit" value="add">
+                    </form>
+                </div>
+                <!--end Burger block-->
+                <div class="burger">
+                    <img src="./assets/img/BaconBlueCheeseBurger.jpg" alt="" class="master">
+                    <h4>Bacon Blue Cheese Burger</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, maxime quisquam? Obcaecati recusandae quos consequuntur rerum? Iusto quidem est ut asperiores qui consectetur eius odio quos consequatur similique! Sed, asperiores.</p>
+                    <h5>starting at <span class="child">4.99$</span><h5>
+                    <form action="">
+                        <label for="">Quantity:</label>
+                        <input type="number" name="" id="" step="1" min="1" max="8">
+                        <input type="reset" value="clear">
+                        <input type="submit" value="add">
+                    </form>
+                </div>
+                <!--end Burger block-->
+                <div class="burger">
+                    <img src="./assets/img/BaconBlueCheeseBurger.jpg" alt="" class="master">
+                    <h4>Bacon Blue Cheese Burger</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, maxime quisquam? Obcaecati recusandae quos consequuntur rerum? Iusto quidem est ut asperiores qui consectetur eius odio quos consequatur similique! Sed, asperiores.</p>
+                    <h5>starting at <span class="child">4.99$</span><h5>
+                    <form action="">
+                        <label for="">Quantity:</label>
+                        <input type="number" name="" id="" step="1" min="1" max="8">
+                        <input type="reset" value="clear">
+                        <input type="submit" value="add">
+                    </form>
+                </div>
+                <!--end Burger block-->
+                <div class="burger">
+                    <img src="./assets/img/BaconBlueCheeseBurger.jpg" alt="" class="master">
+                    <h4>Bacon Blue Cheese Burger</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, maxime quisquam? Obcaecati recusandae quos consequuntur rerum? Iusto quidem est ut asperiores qui consectetur eius odio quos consequatur similique! Sed, asperiores.</p>
+                    <h5>starting at <span class="child">4.99$</span><h5>
+                    <form action="">
+                        <label for="">Quantity:</label>
+                        <input type="number" name="" id="" step="1" min="1" max="8">
+                        <input type="reset" value="clear">
+                        <input type="submit" value="add">
+                    </form>
+                </div>
+                <!--end Burger block-->
+                <div class="burger">
+                    <img src="./assets/img/BaconBlueCheeseBurger.jpg" alt="" class="master">
+                    <h4>Bacon Blue Cheese Burger</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, maxime quisquam? Obcaecati recusandae quos consequuntur rerum? Iusto quidem est ut asperiores qui consectetur eius odio quos consequatur similique! Sed, asperiores.</p>
+                    <h5>starting at <span class="child">4.99$</span><h5>
+                    <form action="">
+                        <label for="">Quantity:</label>
+                        <input type="number" name="" id="" step="1" min="1" max="8">
+                        <input type="reset" value="clear">
+                        <input type="submit" value="add">
+                    </form>
+                </div>
+                <!--end Burger block-->
+                <div class="burger">
+                    <img src="./assets/img/BaconBlueCheeseBurger.jpg" alt="" class="master">
+                    <h4>Bacon Blue Cheese Burger</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, maxime quisquam? Obcaecati recusandae quos consequuntur rerum? Iusto quidem est ut asperiores qui consectetur eius odio quos consequatur similique! Sed, asperiores.</p>
+                    <h5>starting at <span class="child">4.99$</span><h5>
+                    <form action="">
+                        <label for="">Quantity:</label>
+                        <input type="number" name="" id="" step="1" min="1" max="8">
+                        <input type="reset" value="clear">
+                        <input type="submit" value="add">
+                    </form>
+                </div>
+                <!--end Burger block-->
             </section>
         </main>
-        <aside>
-            <p>aside</p>
-        </aside>
         <footer>
-            <p>footer</p>
+<div>
+    <p>WHO WE ARE?</p>
+    <p><a href="#">ABOUT US</a></p>
+    <p><a href="#">LOCATIONS</a></p>
+    <p><a href="#">CUSTOMER SUPPORT</a></p>
+    <p><a href="#">PRIVATE EVENTS</a></p>
+    <p><a href="#">WORK WITH US</a></p>
+</div>
+<div>
+    <p>ABOUT US</p>
+    <p><a href="./terms.html">TERMS AND CONDITIONS</a></p>
+    <p><a href="#">CONTACT US</a></p>
+    <p><a href="#">FAQS</a></p>
+</div>
+<div>
+    <p>ALL RIGHTS RESERVED</p>
+</div>
         </footer>
 </body>
 </html>
